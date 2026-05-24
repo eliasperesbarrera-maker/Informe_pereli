@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
-import contenidoPrompts from '../../doc_pereli/08_prompts_informe_pereli.md?raw';
+import contenidoPrompts from '../../docs_pereli/08_prompts_informe_pereli.md?raw';
 
 const Prompts = () => {
   return (

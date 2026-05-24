@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
-import contenidoConclusiones from '../../doc_pereli/07_conclusiones_informe_pereli.md?raw';
+import contenidoConclusiones from '../../docs_pereli/07_conclusiones_informe_pereli.md?raw';
 
 const Conclusiones = () => {
   return (

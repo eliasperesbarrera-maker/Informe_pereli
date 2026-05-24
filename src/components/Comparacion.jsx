@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
-import contenidoComparacion from '../../doc_pereli/04_comparacion_informe_pereli.md?raw';
+import contenidoComparacion from '../../docs_pereli/04_comparacion_informe_pereli.md?raw';
 
 const Comparacion = () => {
   return (

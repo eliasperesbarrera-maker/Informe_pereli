@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
-import contenidoMarco from '../../doc_pereli/02_marco_informe_pereli.md?raw';
+import contenidoMarco from '../../docs_pereli/02_marco_informe_pereli.md?raw';
 
 const Marco = () => {
   return (

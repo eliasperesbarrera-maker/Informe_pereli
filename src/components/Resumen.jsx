@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
-import contenidoResumen from '../../doc_pereli/01_resumen_informe_pereli.md?raw';
+import contenidoResumen from '../../docs_pereli/01_resumen_informe_pereli.md?raw';
 const Resumen = () => {
 const Resumen = () => {
   console.log("Contenido que está leyendo React:", contenidoResumen);

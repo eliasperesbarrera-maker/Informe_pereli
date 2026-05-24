@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
-import contenidoResponsabilidades from '../../doc_pereli/05_responsabilidades_informe_pereli.md?raw';
+import contenidoResponsabilidades from '../../docs_pereli/05_responsabilidades_informe_pereli.md?raw';
 
 const Responsabilidades = () => {
   return (

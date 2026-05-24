@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactMarkdown from 'react-markdown';
-import contenidoDelitos from '../../doc_pereli/03_delitos_informe_pereli.md?raw';
+import contenidoDelitos from '../../docs_pereli/03_delitos_informe_pereli.md?raw';
 
 const Delitos = () => {
   return (
