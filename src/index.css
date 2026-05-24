@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+:root {
+  --text: #6b6375;
+  --text-h: #08060d;
+  --bg: #fff;
+  --border: #e5e4e7;
+  --code-bg: #f4f3ec;
+  --accent: #aa3bff;
+  --accent-bg: rgba(170, 59, 255, 0.1);
+  --accent-border: rgba(170, 59, 255, 0.5);
+  --social-bg: rgba(244, 243, 236, 0.5);
+  --shadow:
+    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+}
+  /* Estilos para que el contenido Markdown se vea perfecto */
+.prose {
+  text-align: left !important;
+  color: #334155 !important; /* Gris oscuro ultra legible */
+}
+
+.prose h1, .prose h2, .prose h3 {
+  color: #0f172a !important; /* Títulos casi negros */
+  font-weight: 700 !important;
+  margin-top: 1.75rem !important; /* Separa el título del párrafo anterior */
+  margin-bottom: 0.75rem !important; /* Separa el título de su propio texto */
+}
+
+.prose h1 { font-size: 2rem !important; }
+.prose h2 { font-size: 1.5rem !important; }
+.prose h3 { font-size: 1.25rem !important; }
+
+.prose p {
+  margin-bottom: 1.25rem !important; /* Separa los párrafos entre sí */
+  line-height: 1.6 !important; /* Espaciado de lectura cómodo */
+}
+
+.prose ul {
+  list-style-type: disc !important;
+  padding-left: 1.5rem !important;
+  margin-bottom: 1.25rem !important;
+}
+
+.prose li {
+  margin-bottom: 0.5rem !important;
+}
+
+.prose strong {
+  color: #0f172a !important;
+  font-weight: 600 !important;
+}

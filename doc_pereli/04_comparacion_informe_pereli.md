@@ -1,0 +1,9 @@
+# Comparación de Marcos Regulatorios por Industria
+
+El nivel de exigencia en ciberseguridad varía en Chile según el sector. A continuación, se compara la industria de la energía (caso Copec) con otras industrias críticas.
+
+| Eje de Comparación | Industria Energética (Caso Copec) | Industria Financiera (Bancos) | Industria de la Salud (Clínicas) |
+| :--- | :--- | :--- | :--- |
+| **Entidad Fiscalizadora y Reguladora** | Superintendencia de Electricidad y Combustibles (SEC) y la nueva Agencia Nacional de Ciberseguridad (ANCI). | Comisión para el Mercado Financiero (CMF). | Ministerio de Salud (MINSAL) y Superintendencia de Salud. |
+| **Obligaciones de Reporte de Incidentes** | **Alta y Obligatoria:** Como Operador de Importancia Vital (OIV), la Ley 21.663 exige reporte inmediato a la ANCI (habitualmente en las primeras horas tras confirmar el ataque). | **Extrema y Crítica:** La normativa RAN 20-10 exige un reporte inicial a la CMF en un plazo **máximo de 30 minutos** desde que se clasifica el incidente. | **Moderada a Alta:** No existe una plataforma centralizada de reporte en tiempo real, pero se debe notificar vulneraciones de fichas clínicas según la Ley de Derechos del Paciente. |
+| **Nivel de Sanciones ante Negligencia** | Multas administrativas severas (miles de UTM) impuestas por la SEC/ANCI si se interrumpe la cadena de suministro o si no existían medidas básicas de ciberseguridad. | Multas institucionales millonarias, remoción de directores y amonestaciones directas a gerentes generales por fallas en la continuidad operacional y protección del secreto bancario. | Sumarios sanitarios, multas por parte de la Superintendencia de Salud y exposición a cuantiosas demandas civiles por vulnerar datos sensibles (salud). |
