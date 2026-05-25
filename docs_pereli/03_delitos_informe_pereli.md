@@ -1,10 +1,9 @@
 # Tipificación de Delitos según la Ley N° 21.459
 
-El ataque perpetrado por el grupo cibercriminal Anubis involucró múltiples acciones concatenadas. A continuación, se mapean estas acciones a los tipos penales específicos de la Ley de Delitos Informáticos chilena:
+Las acciones documentadas de los atacantes en el caso Copec configuran los siguientes delitos bajo la Ley 21.459:
 
-| Acción del Atacante (Grupo Anubis) | Artículo Aplicable (Ley 21.459) | Justificación Legal y Tipificación |
-| :--- | :--- | :--- |
-| **Vulneración del perímetro de red:** Los hackers superaron firewalls y sistemas de autenticación para ingresar a la red corporativa de Copec. | **Artículo 1° (Acceso Ilícito)** | Se castiga al que "sin autorización o excediendo la que posea, acceda a un sistema informático". El grupo Anubis ingresó maliciosamente a sistemas de acceso restringido. |
-| **Exfiltración de 6 Terabytes de información:** Copia no autorizada de contratos corporativos y bases de datos de trabajadores a servidores externos. | **Artículo 2° (Interceptación Ilícita)** | Contempla la captación, interceptación o grabación indebida de datos informáticos en transmisiones o sistemas de almacenamiento. Los datos fueron sustraídos ilegítimamente. |
-| **Despliegue del Ransomware:** Ejecución de malware criptográfico que cifró los servidores operativos y de almacenamiento de Copec, bloqueando el acceso a sus dueños. | **Artículo 3° (Ataque a la integridad de los datos informáticos)** | Conocido como "Sabotaje Informático". Sanciona a quien "altere, dañe, suprima, destruya o bloquee" datos. El cifrado cumple exactamente con el bloqueo y daño de la data original. |
-| **Exigencia de rescate:** Solicitud de US$ 6 millones (y negociaciones posteriores de US$ 400 mil) bajo la amenaza de publicar la información robada. | **Artículo 6° (Fraude Informático) en relación al Art. 5° (Receptación)** | Extorsión digital pura. El atacante busca un beneficio económico indebido (lucro) coaccionando a la víctima con la alteración o divulgación de datos obtenidos ilícitamente. |
+Artículo 2 - Acceso ilícito (Inciso 1): 'El que, sin autorización o excediendo la que posea, acceda a un sistema informático...'. Se mapea a la acción inicial del ciberataque, donde los delincuentes vulneraron el perímetro del servidor corporativo de Copec para ganar acceso a la red interna.
+
+Artículo 4 - Ataque a la integridad de los datos informáticos: 'El que indebidamente altere, dañe, o suprima datos informáticos...'. Se mapea a la extracción (y posible supresión o bloqueo local si se usó ransomware) de los archivos de recursos humanos de sus repositorios originales.
+
+Artículo 6 - Receptación de datos informáticos: 'El que conociendo su origen ilícito, comercialice, transfiera o almacene...'. Se mapea directamente a la publicación y difusión de las carpetas con los contratos y sueldos de los trabajadores en plataformas de la Dark Web para su descarga pública o extorsión.
