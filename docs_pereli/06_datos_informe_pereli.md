@@ -1,14 +1,13 @@
 # Tratamiento de Datos Personales (Ley N° 19.628)
 
-La exfiltración de 6 TB de información perpetrada por el grupo Anubis representa una brecha masiva de datos privados amparados por la legislación chilena.
+La exfiltración en Copec compromete múltiples capas de información de sus colaboradores.
 
-## Clasificación de los Datos Expuestos
-1. **Datos Personales:** Información concerniente a personas naturales identificadas o identificables. En este caso: Nombres completos de los trabajadores, números de RUT, direcciones, teléfonos y correos corporativos/personales.
-2. **Datos Sensibles (Análisis contextual):** La ley define explícitamente como sensibles datos de salud, ideología o raza. Sin embargo, la exposición de **liquidaciones de sueldo, finiquitos y detalles previsionales** (que muestran el patrimonio, endeudamiento y situación financiera de un trabajador) vulnera gravemente la esfera íntima familiar, siendo tratados jurisprudencialmente con un estándar de protección equiparable a la información sensible.
+Clasificación de los datos: Se vieron afectados Datos Personales Identificatorios (Nombres, domicilios, RUTs) y Datos Personales de Carácter Económico (Liquidaciones de sueldo, montos de contratos). Si bien no se publicaron explícitamente Datos Sensibles (como estado de salud o afiliación política), la suma de datos financieros expone a las víctimas a fraudes altamente dirigidos.
 
-## Ejercicio de Derechos ARCO frente a la Brecha
-La Ley 19.628 consagra los derechos ARCO para los titulares de los datos (los trabajadores de Copec), quienes podrían exigirlos de la siguiente manera:
-* **Derecho de Acceso:** Los empleados afectados tienen el derecho inalienable de solicitar a Copec un informe exacto de *qué datos específicos* de su propiedad estaban incluidos en los 6 TB robados y si estos llegaron a publicarse.
-* **Derecho de Rectificación:** Si a raíz de la filtración se generan fraudes con datos desactualizados en los sistemas de la empresa, el trabajador puede exigir su inmediata corrección.
-* **Derecho de Cancelación:** Trabajadores desvinculados hace años cuyos datos aún permanecían en los servidores vulnerados de Copec sin justificación, pueden alegar retención indebida y exigir la eliminación total de sus registros.
-* **Derecho de Oposición:** El derecho a exigir que la empresa no siga almacenando sus datos en plataformas internas que no cumplan con estándares de cifrado robustos tras el incidente.
+Análisis de Derechos ARCO afectados (Título II, Ley 19.628):
+
+Derecho de Acceso (Art. 12): Los trabajadores tienen el derecho de exigir a Copec que se les informe de manera transparente y exacta qué datos específicos de su persona fueron incluidos en la filtración.
+
+Derecho de Cancelación/Bloqueo (Art. 13): Frente a la pérdida de control, los afectados pueden solicitar a la empresa que elimine sus datos financieros históricos de servidores vulnerables o exigir el bloqueo de la información expuesta para que no siga siendo indexada por terceros.
+
+Derecho de Oposición (Art. 12): Los titulares pueden oponerse a que la empresa siga compartiendo o almacenando su información en infraestructuras de nube de terceros que no ofrezcan garantías de cifrado de grado militar.
