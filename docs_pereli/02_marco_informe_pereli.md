@@ -1,11 +1,3 @@
 # Marco Normativo Aplicable (Nacional e Internacional)
 
-El análisis del incidente se enmarca bajo las siguientes normativas aplicables:
-
-Ley 21.459 sobre Delitos Informáticos (Nacional): Aplicabilidad directa justificada porque el grupo atacante debió vulnerar de forma remota los sistemas de autenticación de los servidores de Copec para extraer la información.
-
-Ley 19.628 sobre Protección de la Vida Privada (Nacional): Aplicabilidad directa justificada por el hecho de que la base de datos robada contenía contratos y remuneraciones, los cuales constituyen datos personales de carácter financiero de la plantilla laboral, cuya custodia es obligación del empleador.
-
-Convenio de Budapest (Internacional): Aplicabilidad justificada porque la exfiltración y posterior publicación de los archivos se realizó a través de foros clandestinos alojados en servidores fuera de la jurisdicción chilena, requiriendo cooperación internacional para la persecución penal de las IPs de origen.
-
-Estándar ISO/IEC 27001 (Internacional): Norma de referencia para evaluar la falta de controles técnicos en la empresa, específicamente la ausencia de cifrado en reposo para las bases de datos de Recursos Humanos.
+El presente informe técnico detalla el análisis legal e informático del incidente de ciberseguridad sufrido por la empresa chilena Copec, en el cual actores maliciosos no autorizados lograron evadir el perímetro de seguridad de la red corporativa. Este ataque de exfiltración masiva de datos (Data Breach) resultó en la supresión y exposición pública de más de 4.2 GB de información confidencial. El impacto más severo de esta brecha radica en el compromiso de la privacidad de los colaboradores de la compañía, ya que los volúmenes de datos filtrados en la 'Dark Web' incluyen carpetas de Recursos Humanos con contratos laborales íntegros, liquidaciones de remuneraciones, números de RUT, direcciones particulares y datos de contacto de cientos de empleados, generando una crisis de cumplimiento normativo y exposición a fraudes por suplantación de identidad.
