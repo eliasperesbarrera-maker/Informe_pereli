@@ -1,13 +1,21 @@
 # Actores Identificados y Responsabilidades Legales
 
-El hackeo a Copec detona responsabilidades en distintas esferas jurídicas para los diferentes actores involucrados.
+El incidente ramifica responsabilidades en tres actores principales:
 
-### 1. Responsabilidad Penal
-* **Grupo Cibercriminal (Anubis):** Son los autores directos de los delitos tipificados en la Ley 21.459 (Acceso ilícito, sabotaje, interceptación y extorsión). Arriesgan penas de presidio menor a mayor dependiendo de la gravedad de la disrupción.
-* **Copec (Como Persona Jurídica):** Bajo la Ley N° 20.393 (Responsabilidad Penal de las Personas Jurídicas) y las modificaciones de la Ley de Delitos Económicos, si Copec hubiera pagado el rescate a una organización criminal extranjera, y se demuestra que no tenía un Modelo de Prevención de Delitos idóneo, podría ser investigada por financiamiento de actividades ilícitas o lavado de activos, aunque sea víctima de la extorsión primaria.
+Los Atacantes (Cibercriminales):
 
-### 2. Responsabilidad Civil
-* **Copec S.A.:** La empresa tiene una responsabilidad contractual y extracontractual en la protección de la información que custodia. Los trabajadores (cuyas liquidaciones y datos fueron expuestos) y las empresas proveedoras (cuyos contratos confidenciales fueron robados) pueden demandar a Copec por indemnización de perjuicios (daño moral y daño emergente) argumentando *culpa in vigilando* (falta de cuidado debido en sus sistemas informáticos).
+Responsabilidad Penal: Enfrentan penas de presidio por acceso ilícito y receptación (Arts. 2 y 6 de la Ley 21.459).
 
-### 3. Responsabilidad Administrativa
-* **Directivos y Organización (Copec):** Al ser parte de la infraestructura crítica del país (distribución de combustibles), la empresa se expone a sanciones y multas administrativas por parte de la Superintendencia de Electricidad y Combustibles (SEC) y de la Agencia Nacional de Ciberseguridad (ANCI) por no garantizar la resiliencia operativa y la protección de sus redes frente a amenazas externas, en el marco de la Ley 21.663.
+Responsabilidad Civil: Obligación de indemnizar los daños causados a la empresa y a los titulares de los datos por el perjuicio provocado.
+
+La Empresa (Directorio/Copec):
+
+Responsabilidad Civil: Obligación de indemnizar a los trabajadores por daño moral o patrimonial si sufren fraudes, al no resguardar sus datos (Art. 23, Ley 19.628).
+
+Responsabilidad Administrativa: Posibles sanciones por parte de entidades reguladoras (como la CMF si afecta operaciones de mercado) por fallas en la continuidad operacional y gestión de riesgos corporativos.
+
+Área de TI / Proveedor de Ciberseguridad Externo:
+
+Responsabilidad Civil: Por incumplimiento de contratos de nivel de servicio (SLA) si la vulneración ingresó por negligencia en el mantenimiento de firewalls.
+
+Responsabilidad Administrativa/Laboral: Riesgo de desvinculación por falta grave a las obligaciones contractuales de resguardo de los activos de información.
